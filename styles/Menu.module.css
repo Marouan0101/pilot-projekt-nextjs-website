@@ -1,0 +1,11 @@
+.menu {
+  @apply flex items-center justify-between border-b bg-white p-4 shadow-sm;
+}
+
+.title {
+  @apply text-xl font-semibold uppercase text-primary;
+}
+
+.links {
+  @apply flex space-x-4 text-lg;
+}

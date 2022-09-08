@@ -1,0 +1,27 @@
+.container {
+  @apply space-y-10 px-44 py-10;
+}
+
+.header {
+  @apply my-10 text-center text-6xl font-bold;
+}
+
+.content {
+  @apply rounded-2xl border bg-white px-10 py-10 shadow-md;
+}
+
+.content_header {
+  @apply mb-10 text-center text-2xl font-semibold;
+}
+
+.input_box {
+  @apply flex space-x-2;
+}
+
+.input {
+  @apply w-full rounded-xl border-2 bg-white px-6 py-4 text-lg focus:outline-none;
+}
+
+.button {
+  @apply rounded-xl bg-primary px-8 text-lg;
+}
